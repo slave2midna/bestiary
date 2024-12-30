@@ -1,0 +1,57 @@
+{
+  "id": "lookfar",
+  "title": "Lookfar Travel Assistant",
+  "description": "A module to assist with travel and random discovery/danger generation. For use with the Fabula Ultima game system.",
+  "version": "#{VERSION}#",
+  "library": false,
+  "compatibility": {
+    "minimum": 11,
+    "verified": 11,
+    "maximum": 12
+  },
+  "authors": [
+    {
+      "name": "why Cookie Rocket",
+      "url": "https://github.com/infrastructureaxolotl"
+    },
+    {
+      "name": "Noamancy",
+      "url": "https://github.com/slave2midna"
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "projectfu",
+        "type": "system",
+        "manifest": "https://github.com/League-of-Fabulous-Developers/FoundryVTT-Fabula-Ultima/releases/latest/download/system.json",
+        "compatibility": {
+          "verified": "2.3.0"
+        }
+      }
+    ],
+    "requires": []
+  },
+  "esmodules": [
+    "scripts/dataLoader.js",
+    "scripts/lib/lib.js",
+    "scripts/travel-roll.js"
+  ],
+  "scripts": [],
+  "styles": [
+    "styles/style.css"
+  ],
+  "languages": [],
+  "url": "#{URL}#",
+  "manifest": "#{MANIFEST}#",
+  "download": "#{DOWNLOAD}#",
+  "license": "MIT License",
+  "readme": "README.md",
+  "media": [
+    {
+      "type": "icon",
+      "url": "https://avatars2.githubusercontent.com/u/71292812?s=400&u=ccdb4eeb7abf551ca8f314e5a9bfd0479a4d3d41&v=4"
+    }
+  ],
+  "socket": true
+}
